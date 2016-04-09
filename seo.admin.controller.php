@@ -18,7 +18,7 @@ class seoAdminController extends seo
 			$config->site_keywords = $vars->site_keywords;
 
 			if ($vars->site_image) {
-				$path = _XE_PATH_ . 'files/attach/site_image/';
+				$path = _DAOL_PATH_ . 'files/attach/site_image/';
 				$ext = strtolower(array_pop(explode('.', $vars->site_image['name'])));
 				$timestamp = time();
 				$filename = "site_image.{$timestamp}.{$ext}";

@@ -34,7 +34,7 @@ class seo extends ModuleObject
 				$cache_key = 'seo:site_image';
 				$site_image = $oCacheHandler->get($cache_key);
 				if(!$site_image) {
-					$path = _XE_PATH_ . 'files/attach/site_image/';
+					$path = _DAOL_PATH_ . 'files/attach/site_image/';
 					list($width, $height) = @getimagesize($path . $config->site_image);
 					$site_image_dimension = array(
 						'width' => $width,
