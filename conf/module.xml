@@ -10,7 +10,8 @@
 	</actions>
 	<menus>
 		<menu name="setting" type="all">
-			<title xml:lang="ko">XE SEO</title>
+			<title xml:lang="ko">DAOL SEO</title>
+			<title xml:lang="en">DAOL SEO</title>
 		</menu>
 	</menus>
 </module>
