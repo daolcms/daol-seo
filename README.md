@@ -1,2 +1,2 @@
-# daol-seo
+# DAOL SEO
 DAOL SEO Module
